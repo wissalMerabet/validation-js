@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgba(74, 31, 90, 0.655);;
+  
+}
+.form2{
+    border: 2px rgba(255, 255, 255, 0.749);
+    font-size: 18px;
+    background-color:#f0e3ef;
+    width: 50%;
+    height: 60%;
+    margin-left: 24%;
+    margin-top: 10%;
+    border-radius: 5px ;
+    box-shadow: 4px 5px 3px rgba(255, 255, 255, 0.438);
+}
+th{
+    padding: 10px;
+}
+b{
+    font-size: 40px;
+    color: rgba(74, 31, 90, 0.655);
+    text-shadow: 2px 2px rgb(131, 76, 128) ; 
+    
+}
+input{
+    border: #c0a4da;
+    border-radius: 3px ;
+    background-color: rgb(181, 139, 181);
+}
+#effaceer{
+    border:  rgba(74, 31, 90, 0.655);;
+    color:  rgba(74, 31, 90, 0.655);;
+    border-radius: 10px ;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+    
+    position: fixed;
+    margin-right: 20px;
+    left: 58%;
+    top: 72%;
+}
+#Envoyer{
+    color:  rgba(74, 31, 90, 0.655);;
+    border:  rgba(74, 31, 90, 0.655);;
+    border-radius: 10px  ;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+    
+    position: fixed;
+    margin-left: 300px;
+    left: 22%;
+    top: 72%;
+}
+
+#Envoyer:hover{
+    color:  rgba(74, 31, 90, 0.655);;
+    font-size: 19px;  
+}
+#effaceer:hover{
+    color:  rgba(74, 31, 90, 0.655);
+    font-size: 19px;
+    
+}
+

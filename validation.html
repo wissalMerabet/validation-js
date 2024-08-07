@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+
+<body>
+    <fieldset class="form2">
+        <legend>
+        <B>Personnel</B>
+        </legend>
+        <form >
+            <table>
+                <tr>
+                <th>Login:</th>
+                <td>
+                    <input type="text" class="login" value="" name="login" onchange="test1()">
+                   
+                </td>
+                </tr>
+                <tr>
+                <th>Mot de pass:</th>
+                <td>
+                    <input type="password" class="password" value="" name="password" onchange="test2()">
+                </td>
+                </tr>
+                <tr>
+                <th>Email:</th>
+                <td>
+                    <input type="text" class="email" value="" name="email" onchange="test3()">
+                </td>
+                </tr>
+                <tr>
+                <th>Numéro de téléphone:</th>
+                <td>
+                    <input type="text" class="numéro" value="" name="numéro" onchange="test4()">
+                </td>
+                </tr>
+                <tr>
+                <th>Adresse:</th>
+                <td>
+                    <input type="text" class="adresse" value="" name="adresse"onchange="test5()">
+                </td>
+                </tr>
+                <tr>
+                <th>Code postal:</th>
+                <td>
+                    <input type="text" class="code" value="" id="code" name="code" onchange="test6()">
+                </td>
+                </tr>
+                <tr>
+                <th>Ville:</th>
+                <td>
+                    <input type="text" class="ville" value="" name="ville" onchange="test7()">
+                </td>
+                </tr>
+            </table>
+            <input type="reset" value="Effacer" id="effaceer">
+            <input type="submit" value="Envoyer" id="Envoyer">
+        </form>
+    <script src="validation.js"></script>   
+     
+</body>
+</html>
